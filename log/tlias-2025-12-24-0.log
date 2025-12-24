@@ -1,0 +1,54 @@
+2025-12-24 10:19:53.862 [main] DEBUG com.hjy.LogTest-开始计算
+2025-12-24 10:19:53.863 [main] INFO com.hjy.LogTest-结果： 101
+2025-12-24 10:19:53.865 [main] DEBUG com.hjy.LogTest-结束计算
+2025-12-24 10:20:08.594 [main] DEBUG com.hjy.LogTest-开始计算
+2025-12-24 10:20:08.595 [main] INFO com.hjy.LogTest-结果： 101
+2025-12-24 10:20:08.596 [main] DEBUG com.hjy.LogTest-结束计算
+2025-12-24 10:20:48.265 [main] DEBUG com.hjy.LogTest-开始计算
+2025-12-24 10:20:48.267 [main] INFO  com.hjy.LogTest-结果： 101
+2025-12-24 10:20:48.267 [main] DEBUG com.hjy.LogTest-结束计算
+2025-12-24 10:39:28.624 [main] INFO  com.hjy.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 24.0.2 with PID 18740 (D:\java\com.hjy\myFirstSpringWeb\tlias-web-management\target\classes started by User in D:\java\com.hjy\myFirstSpringWeb)
+2025-12-24 10:39:28.627 [main] INFO  com.hjy.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-24 10:39:29.409 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-24 10:39:29.419 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-24 10:39:29.420 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-24 10:39:29.420 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-24 10:39:29.472 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 818 ms
+2025-12-24 10:39:29.752 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-24 10:39:29.763 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-24 10:39:29.766 [main] INFO  com.hjy.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.4 seconds (process running for 2.0)
+2025-12-24 10:39:45.050 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-24 10:39:45.050 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-24 10:39:45.051 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-12-24 10:39:45.092 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-12-24 10:39:45.454 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c890184
+2025-12-24 10:39:45.456 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-12-24 10:39:45.503 [http-nio-8080-exec-2] INFO  com.hjy.controller.DeptController-查询所有部门信息
+2025-12-24 10:40:32.582 [http-nio-8080-exec-1] INFO  com.hjy.controller.DeptController-查询所有部门 id=10 信息 
+2025-12-24 10:40:40.036 [http-nio-8080-exec-4] INFO  com.hjy.controller.DeptController-查询所有部门信息
+2025-12-24 10:41:53.936 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-24 10:41:53.941 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-24 10:41:53.943 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-12-24 10:41:53.947 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-12-24 10:41:56.554 [main] INFO  com.hjy.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 24.0.2 with PID 3976 (D:\java\com.hjy\myFirstSpringWeb\tlias-web-management\target\classes started by User in D:\java\com.hjy\myFirstSpringWeb)
+2025-12-24 10:41:56.555 [main] INFO  com.hjy.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-24 10:41:57.136 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-24 10:41:57.145 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-24 10:41:57.146 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-24 10:41:57.146 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-24 10:41:57.170 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 587 ms
+2025-12-24 10:41:57.452 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-24 10:41:57.463 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-24 10:41:57.466 [main] INFO  com.hjy.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.161 seconds (process running for 1.68)
+2025-12-24 10:42:01.382 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-24 10:42:01.382 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-24 10:42:01.384 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-12-24 10:42:01.428 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-12-24 10:42:01.726 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@52036713
+2025-12-24 10:42:01.727 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-12-24 10:42:01.800 [http-nio-8080-exec-1] INFO  com.hjy.controller.DeptController-查询所有部门信息
+2025-12-24 10:42:06.639 [http-nio-8080-exec-2] INFO  com.hjy.controller.DeptController-查询部门 id=10 信息 
+2025-12-24 10:42:14.307 [http-nio-8080-exec-3] INFO  com.hjy.controller.DeptController-删除部门 Dept(id=10, name=大大部, createTime=2025-12-24T09:36:10, updateTime=2025-12-24T10:42:14.270951800)信息
+2025-12-24 10:42:14.318 [http-nio-8080-exec-4] INFO  com.hjy.controller.DeptController-查询所有部门信息
+2025-12-24 10:42:40.087 [http-nio-8080-exec-5] INFO  com.hjy.controller.DeptController-查询所有部门信息
+2025-12-24 10:42:53.239 [http-nio-8080-exec-7] INFO  com.hjy.controller.DeptController-查询所有部门信息
