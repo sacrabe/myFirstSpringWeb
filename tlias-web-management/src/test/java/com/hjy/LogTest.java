@@ -16,7 +16,7 @@ public class LogTest {
         log.debug("开始计算");
 
         int sum = 0;
-        int[] nums = {1, 5, 3, 2, 1, 4, 5, 4, 6, 7, 4, 34, 2, 23};
+        int[] nums = {1, 5, 3, 2, 1, 4, 5, 4, 6, 7, 4, 34, 2, 23,100};
         for (int num : nums) {
             sum += num;
         }
