@@ -11,6 +11,11 @@ public class UUIDTest {
         for (int i = 0; i < 100; i++) {
             System.out.println(UUID.randomUUID());
             System.out.println(UUID.randomUUID());
+            System.out.println(UUID.randomUUID());
+            System.out.println(UUID.randomUUID());
+            System.out.println(UUID.randomUUID());
+            System.out.println(UUID.randomUUID());
+            System.out.println(UUID.randomUUID());
         }
 
 
