@@ -10,6 +10,7 @@ public class UUIDTest {
     public void testUuid(){
         for (int i = 0; i < 100; i++) {
             System.out.println(UUID.randomUUID());
+            System.out.println(UUID.randomUUID());
         }
 
 
