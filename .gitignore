@@ -1,0 +1,19 @@
+# 忽略编译输出文件夹
+target/
+*.class
+
+# 忽略日志文件
+log/
+*.log
+
+# 忽略本地 IDE 配置
+.idea/
+.vscowwqde/
+*.iml
+
+# 排除特定的测试模块
+springboot-autoconfiguration-test/
+
+# 排除自定义的 starter 和 autoconfigure 模块
+aliyun-oss-spring-boot-autoconfigure/
+aliyun-oss-spring-boot-starter/
