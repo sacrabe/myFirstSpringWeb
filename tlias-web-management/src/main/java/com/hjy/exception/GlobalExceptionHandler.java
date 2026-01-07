@@ -1,6 +1,6 @@
-package com.itheima.exception;
+package com.hjy.exception;
 
-import com.itheima.pojo.Result;
+import com.hjy.pojo.Result;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.dao.DuplicateKeyException;
 import org.springframework.web.bind.annotation.ExceptionHandler;

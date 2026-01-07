@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/aliyun-oss-spring-boot-autoconfigure/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aliyun-oss-spring-boot-starter/aliyun-oss-spring-boot-autoconfigure/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aliyun-oss-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-autoconfiguration-test/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tlias-web-management/src/main/java" charset="UTF-8" />
+    <file url="file://E:/java/develop/SSM资料/05-mybatisplus/05-mybatisplus/源码/mybatisplus/mybatisplus_01_quickstart/src/main/java" charset="UTF-8" />
+    <file url="file://E:/java/develop/SSM资料/05-mybatisplus/05-mybatisplus/源码/mybatisplus/mybatisplus_02_dql/src/main/java" charset="UTF-8" />
   </component>
 </project>

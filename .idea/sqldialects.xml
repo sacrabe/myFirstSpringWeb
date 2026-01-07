@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/tlias-web-management/src/main/resources/com/hjy/mapper/EmpExprMapper.xml" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/tlias-web-management/src/main/resources/com/hjy/mapper/EmpMapper.xml" dialect="GenericSQL" />
     <file url="file://E:/java/2025最新版JavaWeb+AI/资料/08. 后端Web实战(员工管理)/资料/05. 员工列表查询-表结构&amp;实体类/emp &amp; emp_expr.sql" dialect="MySQL" />
+    <file url="file://E:/java/2025最新版JavaWeb+AI/资料/13. 后端Web进阶(AOP)/资料/03. Aop案例/日志表.sql" dialect="MySQL" />
   </component>
 </project>

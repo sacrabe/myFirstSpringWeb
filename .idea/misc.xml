@@ -5,10 +5,22 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/tlias-web-management/pom.xml" />
+        <option value="$PROJECT_DIR$/itheima-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/aliyun-oss-spring-boot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/aliyun-oss-spring-boot-starter/aliyun-oss-spring-boot-autoconfigure/pom.xml" />
+        <option value="$PROJECT_DIR$/aliyun-oss-spring-boot-autoconfigure/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-autoconfiguration-test/pom.xml" />
+        <option value="E:/java/develop/SSM资料/05-mybatisplus/05-mybatisplus/源码/mybatisplus/mybatisplus_02_dql/pom.xml" />
+        <option value="E:/java/develop/SSM资料/05-mybatisplus/05-mybatisplus/源码/mybatisplus/mybatisplus_01_quickstart/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/itheima-utils/pom.xml" />
+      </set>
+    </option>
   </component>
-  <component name="ProjectRootManager">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_24" project-jdk-name="24" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

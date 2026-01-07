@@ -3,20 +3,37 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="aliyun-oss-spring-boot-starter" />
+        <module name="springboot-autoconfiguration-test" />
+        <module name="aliyun-oss-spring-boot-autoconfigure" />
+        <module name="mybatisplus_01_quickstart" />
+        <module name="mybatisplus_02_dql" />
+      </profile>
       <profile name="Annotation profile for tlias-web-management" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
+          <entry name="E:/java/develop/apache-maven-3.9.4/mvn_repo/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
         </processorPath>
         <module name="tlias-web-management" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="24" />
+    <bytecodeTargetLevel target="24">
+      <module name="itheima-utils" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="aliyun-oss-spring-boot-autoconfigure" options="-parameters" />
+      <module name="aliyun-oss-spring-boot-starter" options="-parameters" />
+      <module name="mybatisplus_01_quickstart" options="-parameters" />
+      <module name="mybatisplus_02_dql" options="-parameters" />
+      <module name="springboot-autoconfiguration-test" options="-parameters" />
       <module name="tlias-web-management" options="-parameters" />
     </option>
   </component>

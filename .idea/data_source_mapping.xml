@@ -2,6 +2,8 @@
 <project version="4">
   <component name="DataSourcePerFileMappings">
     <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/f0329f31-f04c-4418-8e38-c4cc34f53bd4/console.sql" value="f0329f31-f04c-4418-8e38-c4cc34f53bd4" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/f0329f31-f04c-4418-8e38-c4cc34f53bd4/console_1.sql" value="f0329f31-f04c-4418-8e38-c4cc34f53bd4" />
     <file url="file://E:/java/2025最新版JavaWeb+AI/资料/08. 后端Web实战(员工管理)/资料/05. 员工列表查询-表结构&amp;实体类/emp &amp; emp_expr.sql" value="f0329f31-f04c-4418-8e38-c4cc34f53bd4" />
+    <file url="file://E:/java/2025最新版JavaWeb+AI/资料/13. 后端Web进阶(AOP)/资料/03. Aop案例/日志表.sql" value="f0329f31-f04c-4418-8e38-c4cc34f53bd4" />
   </component>
 </project>

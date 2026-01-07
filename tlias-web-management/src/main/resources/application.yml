@@ -4,12 +4,34 @@ spring:
 
   datasource:
     #type: com.alibaba.druid.pool.DruidDataSource\\
-    url: jdbc:mysql://localhost:3306/tlias
+    url: jdbc:mysql://localhost:3306/tlias #serverTimezone=UTC  springboot 2.4.3前的版本需要
     username: root
     password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
 
+  servlet:
+    multipart:
+      #单个文件最大大小
+      max-file-size: 10MB
+      # 单次请求所有数据大小最大为100MB
+      max-request-size: 100MB
 mybatis:
   configuration:
       log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
       map-underscore-to-camel-case: true
   mapper-locations: classpath:mapper/*.xml
+
+
+# 设置日志管理的日志级别
+
+logging:
+  level:
+    org.springframework.jdbc.support.JdbcTransactionManager: debug
+
+
+
+aliyun:
+  oss:
+    endpoint : https://oss-cn-beijing.aliyuncs.com
+    bucket : hjy-java-bucket
+    region : cn-beijing

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hjy.mapper.EmpMapper">
+<!--  更新员工信息操作  -->
+    <update id="updateById">
+        UPDATE emp
+        <set>
+            <if test="username != null">username = #{username},</if>
+            <if test="password != null">password = #{password},</if>
+            <if test="name != null">name = #{name},</if>
+            <if test="gender != null">gender = #{gender},</if>
+            <if test="phone != null">phone = #{phone},</if>
+            <if test="job != null">job = #{job},</if>
+            <if test="salary != null">salary = #{salary},</if>
+            <if test="image != null">image = #{image},</if>
+            <if test="entryDate != null">entry_date = #{entryDate},</if>
+            <if test="deptId != null">dept_id = #{deptId},</if>
+            <if test="updateTime != null">update_time = #{updateTime},</if>
+        </set>
+        WHERE id = #{id}
+    </update>
+    <!--    批量删除员工基本信息-->
+    <delete id="delete">
+         delete from emp where id in
+            <foreach collection="ids" item="id" separator="," open="(" close=")">
+            #{id}
+            </foreach>
+    </delete>
+
+<!--  查询员工以及部门  -->
+    <select id="list" resultType="com.hjy.pojo.Emp">
+        select emp.*,dept.name deptName
+        from emp left join dept on emp.dept_id = dept.id
+        <where>
+            <if test = "name !=null and name != ''">
+                and emp.name like  concat('%',#{name},'%')
+            </if>
+            <if test="gender !=null">
+                and emp.gender = #{gender}
+            </if>
+            <if test="begin !=null and end !=null">
+                and emp.entry_date between #{begin} and #{end}
+            </if>
+        </where>
+        order by update_time desc
+    </select>
+
+<!--    多条记录需要封装到Emp对象中时，使用resultMap  进行手动封装-->
+
+   <resultMap id="empResultMap" type="com.hjy.pojo.Emp">
+        <id column="id" property="id"/>
+        <result column="username" property="username"/>
+<!--       ......      -->
+        <collection property="exprList" ofType="com.hjy.pojo.EmpExpr">
+            <id column="ee_id" property="id"/>
+            <result column="ee_empid" property="empId"/>
+            <result column="ee_begin" property="begin"/>
+            <result column="ee_end" property="end"/>
+            <result column="ee_company" property="company"/>
+            <result column="ee_job" property="job"/>
+        </collection>
+       
+   </resultMap>
+
+    <select id="select2" resultMap="empResultMap">
+        select e.*,
+               ee.id ee_id,
+               ee.emp_id ee_empid,
+               ee.begin ee_begin,
+               ee.end ee_end,
+               ee.company ee_company,
+               ee.job ee_job
+        from emp e
+                 left join emp_expr ee
+                           on e.id = ee.emp_id
+        where e.id =#{id};
+    </select>
+
+    <select id="getEmpJobDate" resultType="java.util.Map">
+        select (case when job=1
+            then '班主任' when job=2
+            then '讲师' when job=3
+            then '学工主管' when job=4
+            then '教研主管' when job=5
+            then '咨询师' else '其他' end)
+            pos, count(*) num from emp group by job order by num
+    </select>
+
+
+</mapper>
