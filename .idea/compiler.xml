@@ -9,9 +9,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="aliyun-oss-spring-boot-starter" />
         <module name="springboot-autoconfiguration-test" />
+        <module name="mybatisplus_01_quickstart (1)" />
         <module name="aliyun-oss-spring-boot-autoconfigure" />
-        <module name="mybatisplus_01_quickstart" />
-        <module name="mybatisplus_02_dql" />
       </profile>
       <profile name="Annotation profile for tlias-web-management" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -25,6 +24,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="24">
       <module name="itheima-utils" target="17" />
+      <module name="mybatisplus_01_quickstart" target="17" />
+      <module name="mybatisplus_02_dql" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -32,6 +33,7 @@
       <module name="aliyun-oss-spring-boot-autoconfigure" options="-parameters" />
       <module name="aliyun-oss-spring-boot-starter" options="-parameters" />
       <module name="mybatisplus_01_quickstart" options="-parameters" />
+      <module name="mybatisplus_01_quickstart (1)" options="-parameters" />
       <module name="mybatisplus_02_dql" options="-parameters" />
       <module name="springboot-autoconfiguration-test" options="-parameters" />
       <module name="tlias-web-management" options="-parameters" />

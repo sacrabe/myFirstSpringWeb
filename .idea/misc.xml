@@ -12,11 +12,14 @@
         <option value="$PROJECT_DIR$/springboot-autoconfiguration-test/pom.xml" />
         <option value="E:/java/develop/SSM资料/05-mybatisplus/05-mybatisplus/源码/mybatisplus/mybatisplus_02_dql/pom.xml" />
         <option value="E:/java/develop/SSM资料/05-mybatisplus/05-mybatisplus/源码/mybatisplus/mybatisplus_01_quickstart/pom.xml" />
+        <option value="E:/java/develop/sourcecode/mybatisplus_01_quickstart/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/itheima-utils/pom.xml" />
+        <option value="E:/java/develop/SSM资料/05-mybatisplus/05-mybatisplus/源码/mybatisplus/mybatisplus_01_quickstart/pom.xml" />
+        <option value="E:/java/develop/SSM资料/05-mybatisplus/05-mybatisplus/源码/mybatisplus/mybatisplus_02_dql/pom.xml" />
       </set>
     </option>
   </component>
